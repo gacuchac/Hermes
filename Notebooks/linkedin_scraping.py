@@ -109,7 +109,7 @@ def get_post_reactions(wd):
         try:
             wd.find_element_by_xpath("//*[text()='Show more results']").click()
         except:
-            continue
+            pass
 
     for reactor in reactions_modal.find_elements_by_class_name(reactors_href_class_name):
         reactors_href.append(reactor.get_attribute('href'))
@@ -181,7 +181,7 @@ def get_post_comments(wd):
 
     while(load_previous_btn != 'Element not found'):
         load_previous_btn.click()
-        time.sleep(3)
+        time.sleep(2)
         load_previous_btn = get_load_previous_btn(wd)
 
     time.sleep(1)
@@ -221,3 +221,108 @@ def get_post_comments(wd):
     comments_dataframe['number_replies'] = number_of_replies
 
     return comments_dataframe
+
+
+def get_media(wd, post_elmt):
+    media_url = ''
+    media_type = 'Other'  # unknown o no media?
+
+    try:
+        media_url = post_elmt.find_element_by_class_name(
+            'vjs-tech').get_attribute('src')
+        media_type = 'Video'
+    except:
+        try:
+            media_url = post_elmt.find_element_by_class_name(
+                'tap-target.feed-shared-mini-update-v2__link-to-details-page.text-body-medium.ember-view').get_attribute('href')
+            media_type = 'Shared LinkedIn post'
+        except:
+            try:
+                media_url = post_elmt.find_element_by_class_name(
+                    'app-aware-link.feed-shared-article__meta.flex-grow-1.full-width.tap-target').get_attribute('href')
+                media_type = 'Shared link outside LinkedIn without image'
+            except:
+                try:
+                    media_url = post_elmt.find_element_by_class_name(
+                        'app-aware-link.feed-shared-article__image-link.tap-target').get_attribute('href')
+                    media_type = 'Shared link outside LinkedIn'  # job or article or whatever
+                except:
+                    try:
+                        media_url = post_elmt.find_element_by_class_name(
+                            'app-aware-link.feed-shared-entity__content.display-flex').get_attribute('href')
+                        media_type = 'Job offer posted on LinkedIn'
+                    except:
+                        try:
+                            media_url = post_elmt.find_element_by_class_name(
+                                'app-aware-link.feed-shared-article__meta.flex-grow-1.full-width.tap-target').get_attribute('href')
+                            media_type = 'Shared link outside LinkedIn without image'
+                        except:
+                            try:
+                                media_url = post_elmt.find_element_by_class_name(
+                                    'app-aware-link.tap-target.video-s-loader__play-link.play-video').get_attribute('href')
+                                media_type = 'External video'
+                            except:
+                                images = post_elmt.find_elements_by_class_name(
+                                    'ivm-view-attr__img--centered.feed-shared-image__image.lazy-image.ember-view')
+                                if len(images) == 1:
+                                    media_url = images[0].get_attribute('src')
+                                    media_type = 'Single image'
+                                elif len(images) > 1:
+                                    media_url = []
+                                    for img in images:
+                                        media_url.append(
+                                            img.get_attribute('src'))
+                                    media_type = 'Multiple images'
+                                else:
+                                    wd.switch_to.frame(
+                                        wd.find_element_by_tag_name("iframe"))
+                                    carousel = wd.find_elements_by_class_name(
+                                        'carousel-lazy-element')
+                                    if len(carousel) > 0:
+                                        media_url = []
+                                        for slide in carousel:
+                                            media_url.append(
+                                                slide.get_attribute('src'))
+                                        media_type = 'Carousel'
+                                        wd.switch_to.default_content()
+                                    else:
+                                        wd.switch_to.default_content()
+
+    return media_url, media_type
+
+
+def get_post(wd):
+    post_df = pd.DataFrame(
+        columns=['post_url', 'author', 'author_url', 'author_type', 'description', 'media_type', 'media_url'])
+
+    author_element_cn = 'app-aware-link.feed-shared-actor__container-link.relative.display-flex.flex-grow-1'
+    author_name_cn = 'feed-shared-actor__name.t-14.t-bold.hoverable-link-text.t-black'
+    post_description_cn = 'feed-shared-inline-show-more-text.feed-shared-update-v2__description.feed-shared-inline-show-more-text--minimal-padding.feed-shared-inline-show-more-text--expanded'
+
+    post_element = wd.find_element_by_class_name('core-rail.update-outlet')
+    author_url = post_element.find_element_by_class_name(
+        author_element_cn).get_attribute('href').split('?')[0]
+    author_name = post_element.find_element_by_class_name(author_name_cn).text
+    author_type = 'Company' if author_url.find('company') != -1 else 'User'
+
+    try:
+        description = post_element.find_element_by_class_name(
+            post_description_cn).text
+    except:
+        description = 'No description'
+
+    try:
+        source = post_element.get_attribute('src')
+    except:
+        source = 'No source'
+
+    media_url, media_type = get_media(wd, post_element)
+
+    post_df = post_df.append({'post_url': wd.current_url, 'author': author_name, 'author_url': author_url,
+                              'author_type': author_type, 'description': description, 'media_type': media_type,
+                              'media_url': media_url},
+                             ignore_index=True)
+    print('media_url', media_url)
+    print('media_type', media_type)
+
+    return post_df
