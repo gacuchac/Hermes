@@ -87,7 +87,9 @@ def get_post_reactions(wd):
     try:
         reactions = wd.find_element_by_class_name(reactions_window_btn)
     except:
-        reactions_dataframe['post_url'] = wd.current_url
+        reactions_dataframe = reactions_dataframe.append({'post_url': wd.current_url,
+                                                          'username': '', 'profile_url': '', 'reaction': ''},
+                                                         ignore_index=True)
         return reactions_dataframe
 
     n_reactions = int(reactions.text)
@@ -151,9 +153,13 @@ def get_post_comments(wd):
     commentors_name_class_name = 'comments-post-meta__name-text.hoverable-link-text.mr1'
     commentors_href_class_name = 'ember-view.comments-post-meta__profile-link.t-16.t-black.t-bold.tap-target'
     comments_class_name = 'comments-comment-item__main-content.feed-shared-main-content--comment.t-14.t-black.t-normal'
+    close_modal_btn_cn = 'artdeco-modal__dismiss.artdeco-button.artdeco-button--circle.artdeco-button--muted.artdeco-button--2.artdeco-button--tertiary.ember-view'
 
-    amount_of_main_comments = wd.find_elements_by_class_name(
-        "comments-comment-item.comments-comments-list__comment-item")
+    try:
+        wd.find_element_by_class_name(close_modal_btn_cn).click()
+        time.sleep(1)
+    except:
+        pass
 
     # loading all comments
     load_more_btn = get_load_more_btn(wd)
@@ -162,10 +168,10 @@ def get_post_comments(wd):
     comments_dataframe = pd.DataFrame(
         columns=['post_url', 'username', 'profile_url', 'comment', 'number_replies'])
 
-    try:
-        wd.find_elements_by_class_name('comments-comments-list')
-    except:
-        comments_dataframe['post_url'] = wd.current_url
+    if len(wd.find_elements_by_class_name('comments-comments-list')) == 0:
+        comments_dataframe = comments_dataframe.append({'post_url': wd.current_url,
+                                                        'username': '', 'profile_url': '', 'comment': '', 'number_replies': ''},
+                                                       ignore_index=True)
         return comments_dataframe
 
     while(load_more_btn != 'Element not found'):
@@ -178,7 +184,10 @@ def get_post_comments(wd):
         time.sleep(3)
         load_previous_btn = get_load_previous_btn(wd)
 
-    time.sleep(3)
+    time.sleep(1)
+
+    amount_of_main_comments = wd.find_elements_by_class_name(
+        "comments-comment-item.comments-comments-list__comment-item")
 
     for commentor in wd.find_elements_by_class_name(commentors_name_class_name):
         commentors_name.append(commentor.text)
