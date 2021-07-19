@@ -172,18 +172,18 @@ def get_post_comments(wd):
     except:
         pass
 
-    # loading all comments
-    load_more_btn = get_load_more_btn(wd)
-    load_previous_btn = get_load_previous_btn(wd)
-    load_more_rpl_btn = get_load_more_rpl_btn(wd)
-
     comments_dataframe = pd.DataFrame(
         columns=['post_url', 'username', 'profile_url', 'comment', 'number_replies'])
 
+    wd.execute_script("window.scrollTo(0, 1000);")
+
     try:
+        time.sleep(1)
         wd.find_element_by_class_name(
             'comments-sort-order-toggle__trigger.artdeco-dropdown__trigger.artdeco-dropdown__trigger--placement-bottom.ember-view').click()
+        time.sleep(1)
         wd.find_element_by_xpath("//*[text()='Most recent']").click()
+        time.sleep(3)
     except:
         pass
 
@@ -192,6 +192,11 @@ def get_post_comments(wd):
                                                         'username': '', 'profile_url': '', 'comment': '', 'number_replies': ''},
                                                        ignore_index=True)
         return comments_dataframe
+
+     # loading all comments
+    load_more_btn = get_load_more_btn(wd)
+    load_previous_btn = get_load_previous_btn(wd)
+    load_more_rpl_btn = get_load_more_rpl_btn(wd)
 
     while(load_previous_btn != 'Element not found'):
         load_previous_btn.click()
