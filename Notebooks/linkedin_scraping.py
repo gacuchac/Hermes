@@ -84,6 +84,7 @@ def get_post_reactions(wd):
         columns=['post_url', 'username', 'profile_url', 'reaction'])
 
     # opening reactions window
+
     try:
         reactions = wd.find_element_by_class_name(reactions_window_btn)
     except:
@@ -92,7 +93,7 @@ def get_post_reactions(wd):
                                                          ignore_index=True)
         return reactions_dataframe
 
-    n_reactions = int(reactions.text)
+    n_reactions = int(reactions.text.replace(',', ''))
     reactions.click()
 
     time.sleep(2)
@@ -138,12 +139,22 @@ def get_load_more_btn(wd):
 
 def get_load_previous_btn(wd):
     try:
-        return wd.find_element_by_xpath("//*[text()='Load previous replies']")
+        return wd.find_element_by_class_name("//*[text()='Load previous replies']")
+    except:
+        return 'Element not found'
+
+
+def get_load_more_rpl_btn(wd):
+    try:
+        return wd.find_element_by_xpath("//*[text()='Load more replies']")
     except:
         return 'Element not found'
 
 
 def get_post_comments(wd):
+    # https://www.linkedin.com/feed/update/urn:li:activity:6701686325306912768/
+    #  select most relevant
+    # click load more replies
     commentors_name = []
     commentors_href = []
     comments = []
@@ -164,9 +175,17 @@ def get_post_comments(wd):
     # loading all comments
     load_more_btn = get_load_more_btn(wd)
     load_previous_btn = get_load_previous_btn(wd)
+    load_more_rpl_btn = get_load_more_rpl_btn(wd)
 
     comments_dataframe = pd.DataFrame(
         columns=['post_url', 'username', 'profile_url', 'comment', 'number_replies'])
+
+    try:
+        wd.find_element_by_class_name(
+            'comments-sort-order-toggle__trigger.artdeco-dropdown__trigger.artdeco-dropdown__trigger--placement-bottom.ember-view').click()
+        wd.find_element_by_xpath("//*[text()='Most recent']").click()
+    except:
+        pass
 
     if len(wd.find_elements_by_class_name('comments-comments-list')) == 0:
         comments_dataframe = comments_dataframe.append({'post_url': wd.current_url,
@@ -174,15 +193,20 @@ def get_post_comments(wd):
                                                        ignore_index=True)
         return comments_dataframe
 
-    while(load_more_btn != 'Element not found'):
-        load_more_btn.click()
-        time.sleep(3)
-        load_more_btn = get_load_more_btn(wd)
-
     while(load_previous_btn != 'Element not found'):
         load_previous_btn.click()
         time.sleep(2)
         load_previous_btn = get_load_previous_btn(wd)
+
+    while(load_more_rpl_btn != 'Element not found'):
+        load_more_rpl_btn.click()
+        time.sleep(2)
+        load_more_rpl_btn = get_load_more_rpl_btn(wd)
+
+    while(load_more_btn != 'Element not found'):
+        load_more_btn.click()
+        time.sleep(3)
+        load_more_btn = get_load_more_btn(wd)
 
     time.sleep(1)
 
@@ -239,13 +263,13 @@ def get_media(wd, post_elmt):
         except:
             try:
                 media_url = post_elmt.find_element_by_class_name(
-                    'app-aware-link.feed-shared-article__meta.flex-grow-1.full-width.tap-target').get_attribute('href')
-                media_type = 'Shared link outside LinkedIn without image'
+                    'app-aware-link.feed-shared-article__image-link.tap-target').get_attribute('href')
+                media_type = 'Shared link outside LinkedIn'  # job or article or whatever
             except:
                 try:
                     media_url = post_elmt.find_element_by_class_name(
-                        'app-aware-link.feed-shared-article__image-link.tap-target').get_attribute('href')
-                    media_type = 'Shared link outside LinkedIn'  # job or article or whatever
+                        'app-aware-link.feed-shared-article__meta.flex-grow-1.full-width.tap-target').get_attribute('href')
+                    media_type = 'Shared link outside LinkedIn without image'
                 except:
                     try:
                         media_url = post_elmt.find_element_by_class_name(
@@ -254,39 +278,34 @@ def get_media(wd, post_elmt):
                     except:
                         try:
                             media_url = post_elmt.find_element_by_class_name(
-                                'app-aware-link.feed-shared-article__meta.flex-grow-1.full-width.tap-target').get_attribute('href')
-                            media_type = 'Shared link outside LinkedIn without image'
+                                'app-aware-link.tap-target.video-s-loader__play-link.play-video').get_attribute('href')
+                            media_type = 'External video'
                         except:
-                            try:
-                                media_url = post_elmt.find_element_by_class_name(
-                                    'app-aware-link.tap-target.video-s-loader__play-link.play-video').get_attribute('href')
-                                media_type = 'External video'
-                            except:
-                                images = post_elmt.find_elements_by_class_name(
-                                    'ivm-view-attr__img--centered.feed-shared-image__image.lazy-image.ember-view')
-                                if len(images) == 1:
-                                    media_url = images[0].get_attribute('src')
-                                    media_type = 'Single image'
-                                elif len(images) > 1:
+                            images = post_elmt.find_elements_by_class_name(
+                                'ivm-view-attr__img--centered.feed-shared-image__image.lazy-image.ember-view')
+                            if len(images) == 1:
+                                media_url = images[0].get_attribute('src')
+                                media_type = 'Single image'
+                            elif len(images) > 1:
+                                media_url = []
+                                for img in images:
+                                    media_url.append(
+                                        img.get_attribute('src'))
+                                media_type = 'Multiple images'
+                            else:
+                                wd.switch_to.frame(
+                                    wd.find_element_by_tag_name("iframe"))
+                                carousel = wd.find_elements_by_class_name(
+                                    'carousel-lazy-element')
+                                if len(carousel) > 0:
                                     media_url = []
-                                    for img in images:
+                                    for slide in carousel:
                                         media_url.append(
-                                            img.get_attribute('src'))
-                                    media_type = 'Multiple images'
+                                            slide.get_attribute('src'))
+                                    media_type = 'Carousel'
+                                    wd.switch_to.default_content()
                                 else:
-                                    wd.switch_to.frame(
-                                        wd.find_element_by_tag_name("iframe"))
-                                    carousel = wd.find_elements_by_class_name(
-                                        'carousel-lazy-element')
-                                    if len(carousel) > 0:
-                                        media_url = []
-                                        for slide in carousel:
-                                            media_url.append(
-                                                slide.get_attribute('src'))
-                                        media_type = 'Carousel'
-                                        wd.switch_to.default_content()
-                                    else:
-                                        wd.switch_to.default_content()
+                                    wd.switch_to.default_content()
 
     return media_url, media_type
 
