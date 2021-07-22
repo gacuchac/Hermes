@@ -423,11 +423,25 @@ def get_companyURL(wd):
     return companyURL
 
 def get_jobTitle(wd):
+
     try:
         experience = wd.find_element_by_class_name("pv-profile-section.experience-section.ember-view")
-        job_title = experience.find_element_by_class_name("t-16.t-black.t-bold").text
-    except:
-        job_title = ""
+        card = experience.find_element_by_class_name("pv-profile-section__card-item-v2.pv-profile-section.pv-position-entity.ember-view")
+        
+        try:
+            # multiple job titles, take last
+            item = card.find_element_by_class_name("pv-entity__position-group-role-item")
+            job_title = item.find_element_by_class_name("t-14.t-black.t-bold").text.split("\n")[1]
+            print("multiple jobs")
+        
+        except:
+            # 1 job title in last company
+            job_title = experience.find_element_by_class_name("t-16.t-black.t-bold").text
+            print("1 job")
+        
+    except e:
+        job_title = ''
+        print(e)
     
     return job_title
 

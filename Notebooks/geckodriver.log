@@ -1,0 +1,121 @@
+1626979366956	geckodriver	INFO	Listening on 127.0.0.1:53875
+1626979370038	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Gabriel\\AppData\\Local\\Temp\\rust_mozprofileM0MTeo"
+*** You are running in headless mode.
+1626979370504	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gabriel\\AppData\\Local\\Temp\\rust_mozprofileM0MTeo\\search.json.mozlz4", (void 0)))
+1626979371637	Marionette	INFO	Listening on port 63870
+1626979372138	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/crq9ppghoqmequfeeo90tj286, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/crq9ppghoqmequfeeo90tj286, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/crq9ppghoqmequfeeo90tj286, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/crq9ppghoqmequfeeo90tj286, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/crq9ppghoqmequfeeo90tj286, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/crq9ppghoqmequfeeo90tj286, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/crq9ppghoqmequfeeo90tj286, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/crq9ppghoqmequfeeo90tj286, line 3746: unreachable code after return statement
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+ ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/crq9ppghoqmequfeeo90tj286, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/crq9ppghoqmequfeeo90tj286, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/crq9ppghoqmequfeeo90tj286, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/crq9ppghoqmequfeeo90tj286, line 3746: unreachable code after return statement
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+gnature failed  TypeError: NetworkError when attempting to fetch resource.
+1626979694497	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/cfr-fxa Signature failed  [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.error: services.settings: 
+  main/cfr Signature failed  [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.error: services.settings: 
+  main/whats-new-panel Signature failed  [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+JavaScript warning: https://static-exp1.licdn.com/sc/h/crq9ppghoqmequfeeo90tj286, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/crq9ppghoqmequfeeo90tj286, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/crq9ppghoqmequfeeo90tj286, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/crq9ppghoqmequfeeo90tj286, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/crq9ppghoqmequfeeo90tj286, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/crq9ppghoqmequfeeo90tj286, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/crq9ppghoqmequfeeo90tj286, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/crq9ppghoqmequfeeo90tj286, line 3746: unreachable code after return statement
+console.error: services.settings: 
+  blocklists/addons-bloomfilters Signature failed  [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.error: services.settings: 
+  Message: [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.error: services.settings: 
+  Message: [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.error: services.settings: 
+  main/normandy-recipes-capabilities Signature failed  [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.error: services.settings: 
+  Message: [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.error: services.settings: 
+  main/doh-config Signature failed  [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.error: services.settings: 
+  Message: [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.error: services.settings: 
+  Message: [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.error: services.settings: 
+  Message: [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.error: services.settings: 
+  main/public-suffix-list Signature failed  [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.error: services.settings: 
+  Message: [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.error: services.settings: 
+  Message: [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.error: services.settings: 
+  main/url-classifier-skip-urls Signature failed  [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.error: services.settings: 
+  Message: [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.error: services.settings: 
+  main/pioneer-study-addons-v1 Signature failed  [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.error: services.settings: 
+  Message: [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.error: services.settings: 
+  main/fxmonitor-breaches Signature failed  [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.error: services.settings: 
+  Message: [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.error: services.settings: 
+  Message: [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.error: services.settings: 
+  Message: [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.error: services.settings: 
+  main/doh-providers Signature failed  [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.error: services.settings: 
+  Message: [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.error: services.settings: 
+  security-state/intermediates Signature failed  [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.error: services.settings: 
+  Message: [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.error: services.settings: 
+  security-state/cert-revocations Signature failed  [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.error: services.settings: 
+  Message: [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1626988792923	Marionette	INFO	Stopped listening on port 55280
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390079,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
