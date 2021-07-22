@@ -350,3 +350,84 @@ def get_post(wd):
     print('media_type', media_type)
 
     return post_df
+
+def get_linkedinProfile (wd):
+    return wd.current_url
+
+def get_description(wd):
+    description = ""
+    see_more = wd.find_elements_by_class_name("inline-show-more-text__button.inline-show-more-text__button--light.link")
+    if len(see_more) > 0:
+        see_more[0].click()
+        description = wd.find_element_by_class_name("inline-show-more-text.mt4.t-14").text
+    else:
+        try:
+            description = wd.find_element_by_class_name("inline-show-more-text.mt4.t-14").text
+        except:
+            try:
+                description = wd.find_element_by_class_name("inline-show-more-text.inline-show-more-text--is-collapsed.mt4.t-14").text
+            except:
+                description = ""
+    
+    return description
+
+def get_headline(wd):
+    details = wd.find_element_by_class_name("pv-text-details__left-panel.mr5")
+    try:
+        headline = details.find_element_by_class_name("text-body-medium.break-words").text
+    except:
+        headline=""
+    return headline
+
+def get_location(wd):
+    details = wd.find_element_by_class_name("pv-text-details__left-panel.mr5")
+    location = ""
+    try:
+        _location = details.find_elements_by_class_name("text-body-small.inline.t-black--light.break-words")
+        if len(_location) == 1:
+            location = _location[0].text
+        else:
+            location = ""
+    except:
+        location = ""
+
+    return location
+
+def get_fullname(wd):
+    details = wd.find_element_by_class_name("pv-text-details__left-panel.mr5")
+    fullname = details.find_element_by_class_name("text-heading-xlarge.inline.t-24.v-align-middle.break-words").text
+
+    return fullname
+
+def get_subscribers(wd):
+    try:
+        activity = wd.find_element_by_class_name("pv-profile-section.pv-recent-activity-section-v2.artdeco-card.p5.mt4.ember-view")
+        subscribers = activity.find_element_by_class_name("align-self-center.t-14.t-black--light").text.split(" ")[0]
+    except:
+        subscribers = '0'
+    return subscribers
+
+def get_company(wd):
+    right_panel = wd.find_element_by_class_name("pv-text-details__right-panel")
+    company = right_panel.find_element_by_class_name("text-heading-small.align-self-center.flex-1").text
+
+    return company
+
+def get_companyURL(wd):
+    try:
+        experience = wd.find_element_by_class_name("pv-profile-section.experience-section.ember-view")
+        companyURL = experience.find_element_by_xpath(f'//a[contains(@href,"/company")]').get_attribute('href')
+    except:
+        companyURL = ""
+    
+    return companyURL
+
+def get_jobTitle(wd):
+    try:
+        experience = wd.find_element_by_class_name("pv-profile-section.experience-section.ember-view")
+        job_title = experience.find_element_by_class_name("t-16.t-black.t-bold").text
+    except:
+        job_title = ""
+    
+    return job_title
+
