@@ -372,30 +372,40 @@ def get_description(wd):
     return description
 
 def get_headline(wd):
-    details = wd.find_element_by_class_name("pv-text-details__left-panel.mr5")
     try:
-        headline = details.find_element_by_class_name("text-body-medium.break-words").text
+            
+        details = wd.find_element_by_class_name("pv-text-details__left-panel.mr5")
+        try:
+            headline = details.find_element_by_class_name("text-body-medium.break-words").text
+        except:
+            headline=""
     except:
-        headline=""
+        headline = ''
     return headline
 
 def get_location(wd):
-    details = wd.find_element_by_class_name("pv-text-details__left-panel.mr5")
-    location = ""
     try:
-        _location = details.find_elements_by_class_name("text-body-small.inline.t-black--light.break-words")
-        if len(_location) == 1:
-            location = _location[0].text
-        else:
+        details = wd.find_element_by_class_name("pv-text-details__left-panel.mr5")
+        location = ""
+        try:
+            _location = details.find_elements_by_class_name("text-body-small.inline.t-black--light.break-words")
+            if len(_location) == 1:
+                location = _location[0].text
+            else:
+                location = ""
+        except:
             location = ""
     except:
-        location = ""
+        location = ''
 
     return location
 
 def get_fullname(wd):
-    details = wd.find_element_by_class_name("pv-text-details__left-panel.mr5")
-    fullname = details.find_element_by_class_name("text-heading-xlarge.inline.t-24.v-align-middle.break-words").text
+    try:    
+        details = wd.find_element_by_class_name("pv-text-details__left-panel.mr5")
+        fullname = details.find_element_by_class_name("text-heading-xlarge.inline.t-24.v-align-middle.break-words").text
+    except:
+        fullname = ''
 
     return fullname
 
@@ -408,8 +418,11 @@ def get_subscribers(wd):
     return subscribers
 
 def get_company(wd):
-    right_panel = wd.find_element_by_class_name("pv-text-details__right-panel")
-    company = right_panel.find_element_by_class_name("text-heading-small.align-self-center.flex-1").text
+    try:
+        right_panel = wd.find_element_by_class_name("pv-text-details__right-panel")
+        company = right_panel.find_element_by_class_name("text-heading-small.align-self-center.flex-1").text
+    except:
+        company = ''
 
     return company
 
@@ -439,9 +452,8 @@ def get_jobTitle(wd):
             job_title = experience.find_element_by_class_name("t-16.t-black.t-bold").text
             print("1 job")
         
-    except e:
+    except :
         job_title = ''
-        print(e)
     
     return job_title
 

@@ -26,9 +26,9 @@ console.error: services.settings:
 console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
- ignored for this session
-JavaScript warning: https://static-exp1.licdn.com/sc/h/crq9ppghoqmequfeeo90tj286, line 3746: unreachable code after return statement
-JavaScript warning: https://static-exp1.licdn.com/sc/h/crq9ppghoqmequfeeo90tj286, line 3746: unreachable code after return statement
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\Gabriel\AppData\Local\Temp\rust_mozprofileM0MTeo\bookmarkbackups\bookmarks-2021-07-22_11_V6rW6-WHieGsU28HFRvvbg==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+rn statement
 JavaScript warning: https://static-exp1.licdn.com/sc/h/crq9ppghoqmequfeeo90tj286, line 3746: unreachable code after return statement
 JavaScript warning: https://static-exp1.licdn.com/sc/h/crq9ppghoqmequfeeo90tj286, line 3746: unreachable code after return statement
 console.error: services.settings: 
@@ -43,10 +43,9 @@ console.error: services.settings:
 console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-gnature failed  TypeError: NetworkError when attempting to fetch resource.
-1626979694497	Marionette	WARN	TLS certificate errors will be ignored for this session
-console.error: services.settings: 
-  main/cfr-fxa Signature failed  [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\Gabriel\AppData\Local\Temp\rust_mozprofilef31lRS\bookmarkbackups\bookmarks-2021-07-22_11_l7BDeHR90wj4ve9Cjf7R7Q==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+S_ERROR_FAILURE)"  location: "<unknown>"  data: no]
 console.error: services.settings: 
   main/cfr Signature failed  [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
 console.error: services.settings: 
@@ -119,3 +118,76 @@ console.log: WebExtensions: reset-default-search: No addons in our list are inst
 
 ###!!! [Parent][MessageChannel] Error: (msgtype=0x390079,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
 
+1627059879161	geckodriver	INFO	Listening on 127.0.0.1:57620
+1627059882209	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Gabriel\\AppData\\Local\\Temp\\rust_mozprofiletmyGoQ"
+*** You are running in headless mode.
+1627059882727	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gabriel\\AppData\\Local\\Temp\\rust_mozprofiletmyGoQ\\search.json.mozlz4", (void 0)))
+1627059884076	Marionette	INFO	Listening on port 55141
+1627059884326	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aplojwm9akgh4o9ro90x2tow0, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aplojwm9akgh4o9ro90x2tow0, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aplojwm9akgh4o9ro90x2tow0, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aplojwm9akgh4o9ro90x2tow0, line 3746: unreachable code after return statement
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+ ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aplojwm9akgh4o9ro90x2tow0, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aplojwm9akgh4o9ro90x2tow0, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aplojwm9akgh4o9ro90x2tow0, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aplojwm9akgh4o9ro90x2tow0, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aplojwm9akgh4o9ro90x2tow0, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aplojwm9akgh4o9ro90x2tow0, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aplojwm9akgh4o9ro90x2tow0, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aplojwm9akgh4o9ro90x2tow0, line 3746: unreachable code after return statement
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1627060898785	geckodriver	INFO	Listening on 127.0.0.1:60590
+1627060901838	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Gabriel\\AppData\\Local\\Temp\\rust_mozprofileo4kXh5"
+*** You are running in headless mode.
+1627060902229	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Gabriel\\AppData\\Local\\Temp\\rust_mozprofileo4kXh5\\search.json.mozlz4", (void 0)))
+1627060903440	Marionette	INFO	Listening on port 60598
+1627060903970	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aplojwm9akgh4o9ro90x2tow0, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aplojwm9akgh4o9ro90x2tow0, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aplojwm9akgh4o9ro90x2tow0, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aplojwm9akgh4o9ro90x2tow0, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aplojwm9akgh4o9ro90x2tow0, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aplojwm9akgh4o9ro90x2tow0, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aplojwm9akgh4o9ro90x2tow0, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/aplojwm9akgh4o9ro90x2tow0, line 3746: unreachable code after return statement
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
