@@ -191,3 +191,257 @@ console.error: services.settings:
 console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1627325275200	geckodriver	INFO	Listening on 127.0.0.1:61736
+1627325278275	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\VANESS~1\\AppData\\Local\\Temp\\rust_mozprofilecrfB0n"
+*** You are running in headless mode.
+1627325278700	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\VanessaNunez\\AppData\\Local\\Temp\\rust_mozprofilecrfB0n\\search.json.mozlz4", (void 0)))
+1627325279745	Marionette	INFO	Listening on port 61744
+1627325279820	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/alyh59swr6pdpfbnkrtdqy9eu, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/alyh59swr6pdpfbnkrtdqy9eu, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/alyh59swr6pdpfbnkrtdqy9eu, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/alyh59swr6pdpfbnkrtdqy9eu, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/alyh59swr6pdpfbnkrtdqy9eu, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/alyh59swr6pdpfbnkrtdqy9eu, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/alyh59swr6pdpfbnkrtdqy9eu, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/alyh59swr6pdpfbnkrtdqy9eu, line 3746: unreachable code after return statement
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6g6jq5vumam8udt97i969ykgy, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6g6jq5vumam8udt97i969ykgy, line 3746: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1627330724974	geckodriver	INFO	Listening on 127.0.0.1:50979
+1627330728016	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\VANESS~1\\AppData\\Local\\Temp\\rust_mozprofileL3Pg7g"
+*** You are running in headless mode.
+1627330728416	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\VanessaNunez\\AppData\\Local\\Temp\\rust_mozprofileL3Pg7g\\search.json.mozlz4", (void 0)))
+1627330729505	Marionette	INFO	Listening on port 50987
+1627330729586	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6g6jq5vumam8udt97i969ykgy, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6g6jq5vumam8udt97i969ykgy, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6g6jq5vumam8udt97i969ykgy, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6g6jq5vumam8udt97i969ykgy, line 3746: unreachable code after return statement
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6g6jq5vumam8udt97i969ykgy, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6g6jq5vumam8udt97i969ykgy, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6g6jq5vumam8udt97i969ykgy, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6g6jq5vumam8udt97i969ykgy, line 3746: unreachable code after return statement
+1627332810520	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1627332810521	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5njhxfxl4jccwyv3opyyascfb, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5njhxfxl4jccwyv3opyyascfb, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5njhxfxl4jccwyv3opyyascfb, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5njhxfxl4jccwyv3opyyascfb, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5njhxfxl4jccwyv3opyyascfb, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5njhxfxl4jccwyv3opyyascfb, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5njhxfxl4jccwyv3opyyascfb, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5njhxfxl4jccwyv3opyyascfb, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5njhxfxl4jccwyv3opyyascfb, line 22789: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5njhxfxl4jccwyv3opyyascfb, line 22789: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://static-exp1.licdn.com/sc/h/zrzhhhhzo3j2o02nyb1wo78s, line 1: Error: POST request for /directory/api/ingraphs/gauge has failed with status code 999
+JavaScript warning: https://static-exp1.licdn.com/sc/h/b9d845pfvworjpr86anmg2fzz, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://static-exp1.licdn.com/sc/h/b9d845pfvworjpr86anmg2fzz, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: https://static-exp1.licdn.com/sc/h/zrzhhhhzo3j2o02nyb1wo78s, line 1: Error: POST request for /directory/api/ingraphs/gauge has failed with status code 999
+JavaScript warning: https://static-exp1.licdn.com/sc/h/b9d845pfvworjpr86anmg2fzz, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://static-exp1.licdn.com/sc/h/b9d845pfvworjpr86anmg2fzz, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: https://static-exp1.licdn.com/sc/h/zrzhhhhzo3j2o02nyb1wo78s, line 1: Error: POST request for /directory/api/ingraphs/gauge has failed with status code 999
+JavaScript warning: https://static-exp1.licdn.com/sc/h/b9d845pfvworjpr86anmg2fzz, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://static-exp1.licdn.com/sc/h/b9d845pfvworjpr86anmg2fzz, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: https://static-exp1.licdn.com/sc/h/zrzhhhhzo3j2o02nyb1wo78s, line 1: Error: POST request for /directory/api/ingraphs/gauge has failed with status code 999
+JavaScript warning: https://static-exp1.licdn.com/sc/h/b9d845pfvworjpr86anmg2fzz, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://static-exp1.licdn.com/sc/h/b9d845pfvworjpr86anmg2fzz, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: https://static-exp1.licdn.com/sc/h/zrzhhhhzo3j2o02nyb1wo78s, line 1: Error: POST request for /directory/api/ingraphs/gauge has failed with status code 999
+JavaScript warning: https://static-exp1.licdn.com/sc/h/b9d845pfvworjpr86anmg2fzz, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://static-exp1.licdn.com/sc/h/b9d845pfvworjpr86anmg2fzz, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: https://static-exp1.licdn.com/sc/h/zrzhhhhzo3j2o02nyb1wo78s, line 1: Error: POST request for /directory/api/ingraphs/gauge has failed with status code 999
+JavaScript warning: https://static-exp1.licdn.com/sc/h/b9d845pfvworjpr86anmg2fzz, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://static-exp1.licdn.com/sc/h/b9d845pfvworjpr86anmg2fzz, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: https://static-exp1.licdn.com/sc/h/zrzhhhhzo3j2o02nyb1wo78s, line 1: Error: POST request for /directory/api/ingraphs/gauge has failed with status code 999
+JavaScript warning: https://static-exp1.licdn.com/sc/h/b9d845pfvworjpr86anmg2fzz, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://static-exp1.licdn.com/sc/h/b9d845pfvworjpr86anmg2fzz, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript error: https://static-exp1.licdn.com/sc/h/zrzhhhhzo3j2o02nyb1wo78s, line 1: Error: POST request for /directory/api/ingraphs/gauge has failed with status code 999
+JavaScript warning: https://static-exp1.licdn.com/sc/h/b9d845pfvworjpr86anmg2fzz, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://static-exp1.licdn.com/sc/h/b9d845pfvworjpr86anmg2fzz, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+1627401106260	geckodriver	INFO	Listening on 127.0.0.1:51711
+1627401109290	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\VANESS~1\\AppData\\Local\\Temp\\rust_mozprofilesgs7B8"
+*** You are running in headless mode.
+1627401110089	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\VanessaNunez\\AppData\\Local\\Temp\\rust_mozprofilesgs7B8\\search.json.mozlz4", (void 0)))
+1627401111516	Marionette	INFO	Listening on port 51719
+1627401111994	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/cs0gb6c3xg013yj2jr1h2y235, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/cs0gb6c3xg013yj2jr1h2y235, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/cs0gb6c3xg013yj2jr1h2y235, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/cs0gb6c3xg013yj2jr1h2y235, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/cs0gb6c3xg013yj2jr1h2y235, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/cs0gb6c3xg013yj2jr1h2y235, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/cs0gb6c3xg013yj2jr1h2y235, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/cs0gb6c3xg013yj2jr1h2y235, line 3746: unreachable code after return statement
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript warning: https://static-exp1.licdn.com/sc/h/3t4me627l0dibv703p1whj37b, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/3t4me627l0dibv703p1whj37b, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/3t4me627l0dibv703p1whj37b, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/3t4me627l0dibv703p1whj37b, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/3t4me627l0dibv703p1whj37b, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/3t4me627l0dibv703p1whj37b, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/3t4me627l0dibv703p1whj37b, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/3t4me627l0dibv703p1whj37b, line 3746: unreachable code after return statement
+1627415512639	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/29nk0inujt2jovg3g6udov2f4, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/29nk0inujt2jovg3g6udov2f4, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/29nk0inujt2jovg3g6udov2f4, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/29nk0inujt2jovg3g6udov2f4, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/29nk0inujt2jovg3g6udov2f4, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/29nk0inujt2jovg3g6udov2f4, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/29nk0inujt2jovg3g6udov2f4, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/29nk0inujt2jovg3g6udov2f4, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/58mo0tys5ncpfviw9uuaxxosz, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/58mo0tys5ncpfviw9uuaxxosz, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/29nk0inujt2jovg3g6udov2f4, line 22801: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://static-exp1.licdn.com/sc/h/29nk0inujt2jovg3g6udov2f4, line 22801: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+1627426274524	geckodriver	INFO	Listening on 127.0.0.1:57966
+1627426277587	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\VANESS~1\\AppData\\Local\\Temp\\rust_mozprofileGrlfRg"
+*** You are running in headless mode.
+1627426277795	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\VanessaNunez\\AppData\\Local\\Temp\\rust_mozprofileGrlfRg\\search.json.mozlz4", (void 0)))
+1627426278537	Marionette	INFO	Listening on port 57974
+1627426278613	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/58mo0tys5ncpfviw9uuaxxosz, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/58mo0tys5ncpfviw9uuaxxosz, line 3746: unreachable code after return statement
+1627426315076	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/58mo0tys5ncpfviw9uuaxxosz, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/58mo0tys5ncpfviw9uuaxxosz, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/58mo0tys5ncpfviw9uuaxxosz, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/58mo0tys5ncpfviw9uuaxxosz, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/58mo0tys5ncpfviw9uuaxxosz, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/58mo0tys5ncpfviw9uuaxxosz, line 3746: unreachable code after return statement
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/82d4nkxg24q809217lfe78sm4, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/82d4nkxg24q809217lfe78sm4, line 3746: unreachable code after return statement
+Exiting due to channel error.
+1627487991498	geckodriver	INFO	Listening on 127.0.0.1:52582
+1627487994565	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\VANESS~1\\AppData\\Local\\Temp\\rust_mozprofileIvvMKH"
+*** You are running in headless mode.
+1627487995221	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\VanessaNunez\\AppData\\Local\\Temp\\rust_mozprofileIvvMKH\\search.json.mozlz4", (void 0)))
+1627487996751	Marionette	INFO	Listening on port 52590
+1627487997246	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/82d4nkxg24q809217lfe78sm4, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/82d4nkxg24q809217lfe78sm4, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/82d4nkxg24q809217lfe78sm4, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/82d4nkxg24q809217lfe78sm4, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/82d4nkxg24q809217lfe78sm4, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/82d4nkxg24q809217lfe78sm4, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/82d4nkxg24q809217lfe78sm4, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/82d4nkxg24q809217lfe78sm4, line 3746: unreachable code after return statement
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1lo5zkhkjcifnxxnxe1yhsjle, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1lo5zkhkjcifnxxnxe1yhsjle, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1lo5zkhkjcifnxxnxe1yhsjle, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1lo5zkhkjcifnxxnxe1yhsjle, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1lo5zkhkjcifnxxnxe1yhsjle, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1lo5zkhkjcifnxxnxe1yhsjle, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1lo5zkhkjcifnxxnxe1yhsjle, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1lo5zkhkjcifnxxnxe1yhsjle, line 3746: unreachable code after return statement
