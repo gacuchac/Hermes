@@ -446,3 +446,92 @@ JavaScript warning: https://static-exp1.licdn.com/sc/h/1lo5zkhkjcifnxxnxe1yhsjle
 JavaScript warning: https://static-exp1.licdn.com/sc/h/1lo5zkhkjcifnxxnxe1yhsjle, line 3746: unreachable code after return statement
 JavaScript warning: https://static-exp1.licdn.com/sc/h/1lo5zkhkjcifnxxnxe1yhsjle, line 3746: unreachable code after return statement
 [Child 1404, MediaDecoderStateMachine #90] WARNING: 27785d4e120 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+JavaScript warning: https://static-exp1.licdn.com/sc/h/d3gxpjd2wfplcua7i07nzt70v, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/d3gxpjd2wfplcua7i07nzt70v, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/d3gxpjd2wfplcua7i07nzt70v, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/d3gxpjd2wfplcua7i07nzt70v, line 3746: unreachable code after return statement
+Exiting due to channel error.
+1627573411547	geckodriver	INFO	Listening on 127.0.0.1:61642
+1627573414576	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\VANESS~1\\AppData\\Local\\Temp\\rust_mozprofileEs76kD"
+*** You are running in headless mode.
+1627573415214	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\VanessaNunez\\AppData\\Local\\Temp\\rust_mozprofileEs76kD\\search.json.mozlz4", (void 0)))
+1627573416719	Marionette	INFO	Listening on port 61650
+1627573416741	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/72nzpdcvkvrh98hczxf7mqjjn, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/72nzpdcvkvrh98hczxf7mqjjn, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/72nzpdcvkvrh98hczxf7mqjjn, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/72nzpdcvkvrh98hczxf7mqjjn, line 3746: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/72nzpdcvkvrh98hczxf7mqjjn, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/72nzpdcvkvrh98hczxf7mqjjn, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/72nzpdcvkvrh98hczxf7mqjjn, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/72nzpdcvkvrh98hczxf7mqjjn, line 3746: unreachable code after return statement
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript warning: https://static-exp1.licdn.com/sc/h/b8tq6bd0a0ioykn4w234qp0ij, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/b8tq6bd0a0ioykn4w234qp0ij, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/b8tq6bd0a0ioykn4w234qp0ij, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/b8tq6bd0a0ioykn4w234qp0ij, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/b8tq6bd0a0ioykn4w234qp0ij, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/b8tq6bd0a0ioykn4w234qp0ij, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/b8tq6bd0a0ioykn4w234qp0ij, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/b8tq6bd0a0ioykn4w234qp0ij, line 3746: unreachable code after return statement
+JavaScript error: https://static-exp1.licdn.com/sc/h/b8tq6bd0a0ioykn4w234qp0ij, line 1040: TypeError: Network request failed
+JavaScript error: https://static-exp1.licdn.com/sc/h/b8tq6bd0a0ioykn4w234qp0ij, line 1040: TypeError: Network request failed
+JavaScript error: https://static-exp1.licdn.com/sc/h/b8tq6bd0a0ioykn4w234qp0ij, line 1040: TypeError: Network request failed
+JavaScript error: https://static-exp1.licdn.com/sc/h/b8tq6bd0a0ioykn4w234qp0ij, line 1040: TypeError: Network request failed
+JavaScript error: https://static-exp1.licdn.com/sc/h/b8tq6bd0a0ioykn4w234qp0ij, line 1040: TypeError: Network request failed
+JavaScript error: https://static-exp1.licdn.com/sc/h/b8tq6bd0a0ioykn4w234qp0ij, line 1040: TypeError: Network request failed
+JavaScript error: https://static-exp1.licdn.com/sc/h/b8tq6bd0a0ioykn4w234qp0ij, line 1040: TypeError: Network request failed
+JavaScript error: https://static-exp1.licdn.com/sc/h/b8tq6bd0a0ioykn4w234qp0ij, line 1040: TypeError: Network request failed
+JavaScript error: https://static-exp1.licdn.com/sc/h/b8tq6bd0a0ioykn4w234qp0ij, line 1040: TypeError: Network request failed
+JavaScript error: https://static-exp1.licdn.com/sc/h/b8tq6bd0a0ioykn4w234qp0ij, line 1040: TypeError: Network request failed
+JavaScript error: https://static-exp1.licdn.com/sc/h/b8tq6bd0a0ioykn4w234qp0ij, line 1040: TypeError: Network request failed
+JavaScript error: https://static-exp1.licdn.com/sc/h/b8tq6bd0a0ioykn4w234qp0ij, line 1040: TypeError: Network request failed
+JavaScript error: https://static-exp1.licdn.com/sc/h/b8tq6bd0a0ioykn4w234qp0ij, line 1040: TypeError: Network request failed
+JavaScript error: https://static-exp1.licdn.com/sc/h/b8tq6bd0a0ioykn4w234qp0ij, line 1040: TypeError: Network request failed
+JavaScript error: https://static-exp1.licdn.com/sc/h/b8tq6bd0a0ioykn4w234qp0ij, line 1040: TypeError: Network request failed
+JavaScript error: https://static-exp1.licdn.com/sc/h/b8tq6bd0a0ioykn4w234qp0ij, line 1040: TypeError: Network request failed
+JavaScript error: https://static-exp1.licdn.com/sc/h/b8tq6bd0a0ioykn4w234qp0ij, line 1040: TypeError: Network request failed
+JavaScript error: https://static-exp1.licdn.com/sc/h/b8tq6bd0a0ioykn4w234qp0ij, line 1040: TypeError: Network request failed
+JavaScript error: https://static-exp1.licdn.com/sc/h/b8tq6bd0a0ioykn4w234qp0ij, line 1040: TypeError: Network request failed
+JavaScript error: https://static-exp1.licdn.com/sc/h/b8tq6bd0a0ioykn4w234qp0ij, line 1040: TypeError: Network request failed
+JavaScript error: https://static-exp1.licdn.com/sc/h/b8tq6bd0a0ioykn4w234qp0ij, line 1040: TypeError: Network request failed
+JavaScript error: https://static-exp1.licdn.com/sc/h/b8tq6bd0a0ioykn4w234qp0ij, line 1040: TypeError: Network request failed
+JavaScript error: https://static-exp1.licdn.com/sc/h/b8tq6bd0a0ioykn4w234qp0ij, line 1040: TypeError: Network request failed
+JavaScript error: https://static-exp1.licdn.com/sc/h/b8tq6bd0a0ioykn4w234qp0ij, line 1040: TypeError: Network request failed
+JavaScript error: https://static-exp1.licdn.com/sc/h/b8tq6bd0a0ioykn4w234qp0ij, line 1040: TypeError: Network request failed
+JavaScript error: https://static-exp1.licdn.com/sc/h/b8tq6bd0a0ioykn4w234qp0ij, line 1040: TypeError: Network request failed
+JavaScript error: https://static-exp1.licdn.com/sc/h/b8tq6bd0a0ioykn4w234qp0ij, line 1040: TypeError: Network request failed
+JavaScript error: https://static-exp1.licdn.com/sc/h/b8tq6bd0a0ioykn4w234qp0ij, line 1040: TypeError: Network request failed
+JavaScript warning: https://static-exp1.licdn.com/sc/h/79w137xycguofzik789z8sxpe, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/79w137xycguofzik789z8sxpe, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/79w137xycguofzik789z8sxpe, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/79w137xycguofzik789z8sxpe, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/79w137xycguofzik789z8sxpe, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/79w137xycguofzik789z8sxpe, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/79w137xycguofzik789z8sxpe, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/79w137xycguofzik789z8sxpe, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8nx4if09g1krkibcbjamvduay, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8nx4if09g1krkibcbjamvduay, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8nx4if09g1krkibcbjamvduay, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8nx4if09g1krkibcbjamvduay, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8nx4if09g1krkibcbjamvduay, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8nx4if09g1krkibcbjamvduay, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8nx4if09g1krkibcbjamvduay, line 3746: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8nx4if09g1krkibcbjamvduay, line 3746: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
