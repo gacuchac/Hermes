@@ -1448,3 +1448,43 @@ JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 1629303917513	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
 1629304928178	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
 1629304928179	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1629846311346	geckodriver	INFO	Listening on 127.0.0.1:55324
+1629846314407	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\VANESS~1\\AppData\\Local\\Temp\\rust_mozprofileO8TJzM"
+*** You are running in headless mode.
+1629846314629	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\VanessaNunez\\AppData\\Local\\Temp\\rust_mozprofileO8TJzM\\search.json.mozlz4", (void 0)))
+1629846315458	Marionette	INFO	Listening on port 55332
+1629846315957	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5r6ulavzuvm7lf8jb8ty24j8a, line 6507: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/2djy0mo2f0q5id4tk1g91n6hv, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/2djy0mo2f0q5id4tk1g91n6hv, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5r6ulavzuvm7lf8jb8ty24j8a, line 27104: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5r6ulavzuvm7lf8jb8ty24j8a, line 27104: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585). ()
+JavaScript warning: https://static-exp1.licdn.com/sc/h/depvillq85sgjxr1fi7gul5vy, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/59bhrai2tfm6o7oa2b4u3cb5, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/3gzi6e66k3wzc3h39c493pfqp, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/du1n7ti4i5lgydwjomj12xgqp, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/2qjuoctrkmqazfb04wvcotwqc, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5r6ulavzuvm7lf8jb8ty24j8a, line 6507: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/a2otri41lrcodtehjwio6w9cw, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/2djy0mo2f0q5id4tk1g91n6hv, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/2djy0mo2f0q5id4tk1g91n6hv, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/2qjuoctrkmqazfb04wvcotwqc, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/59bhrai2tfm6o7oa2b4u3cb5, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/3gzi6e66k3wzc3h39c493pfqp, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/1rpgjpvhje8798ndw9h524jra, line 6: unreachable code after return statement
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
